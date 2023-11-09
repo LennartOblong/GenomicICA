@@ -34,4 +34,4 @@ i=$1
 dim=$2
 
 $melodic -i path/to/sumstats/all_${i}_Z.nii.gz --no_mm --mask=path/to/clumpmask/mask-clump.nii.gz --update_mask --Oall \
-         -o /projects/0/einf2700/oblongl/ica/ica_Z_dim${dim}_${i} --keep_meanvol --rescale_nht --vn  -d $dim
+         -o /path/to/output/directory/ica_Z_dim${dim}_${i} --keep_meanvol --rescale_nht --vn  -d $dim
