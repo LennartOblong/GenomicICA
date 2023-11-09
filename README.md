@@ -27,6 +27,7 @@ His code was further developed and expanded to further steps by Emma Sprooten an
 
 # Important Notes
 This repository does not contain a plug-and-play code that will immediatley work on any machine. The code provided here is useful for checking the reproducibility of our approach, and shows the implementation of MELODIC on GWAS sumstats.
+Always check your pathing structure to make sure the code works as intended.
 All the analyses were run on Snellius, using the Slurm cluster management system.
 Some of the steps are memory hungry and require a high-performance computing environment.
 FSL is necessary to run our analysis pipeline.
