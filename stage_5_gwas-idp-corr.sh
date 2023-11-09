@@ -33,6 +33,6 @@ rm /gwas-betas/${param}-betas/11k-idp-${idp_id}-masked.txt /gwas-betas/${param}-
 #call R script to perform calculation on IDP file combining 11k and 22k sample GWAS sumstats. Outputs file containing correlation for each IDP.
 module load 2021
 module load R/4.1.0-foss-2021a
-Rscript /run-corr.R /gwas-betas/${param}-betas/idp-11k-22k-${idp_id}-masked.txt /gwas-betas/${param}-betas/idp-11k-22k-${idp_id}-corr.txt ${idp_id}
+Rscript /run-gwas-idp-corr.R /gwas-betas/${param}-betas/idp-11k-22k-${idp_id}-masked.txt /gwas-betas/${param}-betas/idp-11k-22k-${idp_id}-corr.txt ${idp_id}
 
 rm /projects/0/einf2700/oblongl/inter-sample-reproc/univariate_GWAS/${param}-betas/idp-11k-22k-${idp_id}-masked.txt
