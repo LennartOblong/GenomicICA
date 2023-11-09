@@ -1,10 +1,3 @@
-    _____   ______   _   _    ____    __  __   _____    _____        _____    _____            
-  / ____| |  ____| | \ | |  / __ \  |  \/  | |_   _|  / ____|      |_   _|  / ____|     /\    
- | |  __  | |__    |  \| | | |  | | | \  / |   | |   | |             | |   | |         /  \   
- | | |_ | |  __|   | . ` | | |  | | | |\/| |   | |   | |             | |   | |        / /\ \  
- | |__| | | |____  | |\  | | |__| | | |  | |  _| |_  | |____        _| |_  | |____   / ____ \ 
-  \_____| |______| |_| \_|  \____/  |_|  |_| |_____|  \_____|      |_____|  \_____| /_/    \_\
-
 # Description
 GenomicICA code repository
 Contains the code to reproduce the results presented in our published preprint "Principal and Independent Genomic Components of Brain Structure and Function" by Oblong et al., 2023.
