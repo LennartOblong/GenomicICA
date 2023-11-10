@@ -22,10 +22,10 @@ the comments in the scripts carefully and pay attention to the "important notes"
       Calculate reproducibility of genomic PCs and ICs across the 11k and 22k UKB samples
 
 # Acknowledgements
-The present code, and the paper referenced above, is an evolution of the previous work by Sourena Soheili-Nezhad, who deserves a lot of credit for developing the first scripts to successfuly run MELODIC on genetic data (it was developed for neuroimaging data).
-His code was further developed and expanded to further steps by Emma Sprooten and myself.
+The present code, and the paper referenced above, is an evolution of the previous work by Sourena Soheili-Nezhad, who deserves a lot of credit for developing the first scripts to successfuly run MELODIC on genetic data (originally developed for neuroimaging data).
+His code was further developed by Emma Sprooten and Lennart Oblong.
 
 # Important Notes
-This repository does not contain a plug-and-play code. The code provided here is useful for checking the reproducibility of our approach, and shows the implementation of MELODIC on GWAS sumstats.
+This repository does not contain plug-and-play code. The code provided here is meant for checking the reproducibility of our approach, and shows the implementation of MELODIC on GWAS sumstats.
 All the analyses were run on Snellius (https://www.surf.nl/en/dutch-national-supercomputer-snellius), using the Slurm workload management system (https://slurm.schedmd.com/documentation.html).
 Some of the steps are memory hungry and require a high-performance computing environment.
