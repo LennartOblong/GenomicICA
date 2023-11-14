@@ -1,4 +1,3 @@
-# Lennart Oblong - 11.2022
 # Script to compute the cross-correlation for the ICs/PCs
 # Here we compute the similarity index of the decomposition done on different samples from UKB, to determine which decomposition is most reproducable (i.e. if we find similar information decomposed 
 # within the different samples or if one sample stands out). Compare 11k and 22k since they are independent. 33k includes both, but can also be tested if needed.
