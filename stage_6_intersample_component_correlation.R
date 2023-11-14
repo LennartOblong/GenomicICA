@@ -38,7 +38,7 @@ outdir <- paste0("/path/to/outdir/", decomp)
 #get data
 #Note that in the presently used MELODIC version, the PCA components in the output are ordered in reverse, which is why they are re-sorted in decreasing order here.
 #Further, the PCA decompositions between dim5 and dim50 do not differ, as experience has shown that the PCs are the same. Thus, the largest dim50 PCA output is sufficient to extract all PCs for the 
-#dimensions below.
+#dimensions below. Adjust the below naming convention (e.g. "ica-22k-" or "ica-22k-dim-50") according to your naming convention.
         if (decomp == "dim-50") { filenames_22k_ica <- list.files(path = indir2, pattern = paste0("ica-22k-", decomp, "\\s*(.*?)\\s*"), full.names = TRUE)
                                 filenames_22k_ica <- mixedsort(sort(filenames_22k_ica))
                                 filenames_11k_ica <- list.files(path = indir2, pattern = paste0("ica-11k-", decomp, "\\s*(.*?)\\s*"), full.names = TRUE)
