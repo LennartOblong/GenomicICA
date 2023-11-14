@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -t 01:00:00
-#SBATCH --mem=5G
+#SBATCH -t 00:30:00
+#SBATCH --mem=2G
 
 
 #Takes in the melodic_oIC.nii.gz file, or the melodic_pca.nii.gz file, which is a 4D volume of all components and the output of MELODIC
