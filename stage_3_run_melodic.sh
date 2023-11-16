@@ -21,9 +21,6 @@ melodic=${FSLDIR}/bin/melodic
 
 #The clumping mask also must be in nifti-format. You may use the same workaround as previously mentioned.  We clumped the UKB sumstats using plink 1.07 following these parameters:
 #Options in effect:
-#        --noweb
-#        --bfile ../../../software/plink/1000G_20101123_v3_GIANT_chr1_23_minimacnamesifnotRS_CEU_MAF0.01
-#        --clump snp-minp.txt
 #        --clump-r2 0.1
 #        --clump-kb 1000
 #        --clump-p1 0.0001
