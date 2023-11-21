@@ -1,7 +1,7 @@
 # Description
 GenomicICA code repository
 Contains the code to reproduce the results presented in our published preprint "Principal and Independent Genomic Components of Brain Structure and Function" by Oblong et al., 2023.
-This includes the software implementation of the FSL MELODIC algorithm v3.15 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC) on genetic data.
+This includes the software implementation of the FSL MELODIC algorithm v3.15 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC) on genetic data. Note that later version will also work, with the exception that PCA output is in reverse order in v3.15.
 Please cite our work when implementing genomic ICA in your own work. https://www.biorxiv.org/content/10.1101/2022.07.13.499912v2
 
 Herein also contained is the step-by-step reproducibility analysis outlined in our publication.
