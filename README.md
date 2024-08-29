@@ -1,8 +1,10 @@
 # Description
-GenomicICA code repository
-Contains the code to reproduce the results presented in our published preprint "Principal and Independent Genomic Components of Brain Structure and Function" by Oblong et al., 2023.
+Genomic ICA code repository
+Contains the code to reproduce the results presented in our published preprint "Principal and Independent Genomic Components of Brain Structure and Function" by Oblong et al., 2024.
 This includes the software implementation of the FSL MELODIC algorithm v3.15 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC) on genetic data.
 Please cite our work when implementing genomic ICA in your own work. (https://onlinelibrary.wiley.com/doi/10.1111/gbb.12876)
+
+A new and improved iteration of genomic components with visualizations and associated traits is available under http://genomica.info/ ! Should you wish to gain access to components for your own research please contact lennart.oblong@donders.ru.nl.
 
 Herein also contained is the step-by-step reproducibility analysis outlined in our publication.
 The code is divided into 6 stages. Following the stages from 1 through 6 will yield the univariate GWAS reproducibiliy benchmark, and the reproducibility of genomic PCA/ICA components in independent samples. For reproducing our work, please follow
