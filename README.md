@@ -1,6 +1,6 @@
 # Description
-Genomic ICA code repository
-Contains the code to reproduce the results presented in our published preprint "Principal and Independent Genomic Components of Brain Structure and Function" by Oblong et al., 2024.
+Genomic ICA code repository. 
+Contains the code to reproduce the results presented in our published paper "Principal and Independent Genomic Components of Brain Structure and Function", 2024.
 This includes the software implementation of the FSL MELODIC algorithm v3.15 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC) on genetic data.
 Please cite our work when implementing genomic ICA in your own work. (https://onlinelibrary.wiley.com/doi/10.1111/gbb.12876)
 
